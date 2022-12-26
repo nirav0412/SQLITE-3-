@@ -32,9 +32,9 @@ def nik():
             2.For Enter Save
             3.For Transaction History
             4.For Perform Delete and Edit in data
-            5.For Logout''')
+            5.For Logout ''')
 
-    num=int(input("Enter Your Choice"))
+    num=int(input("Enter Your Choice from 1,2,3,4,5"))
 
     if num==1:
         cus1=input("\tEnter a Customer Name : ")
@@ -48,7 +48,7 @@ def nik():
     print("\n\n\t\t\t\t\t\t\tThank you for using Expense Management System")
     print("\t\t\t\t\t\t\t---------------------------------------------")
 
-
+#table contents
 
     def crt_table():
         c.execute('CREATE TABLE IF NOT EXISTS expen(sp_cuname TEXT,sp_uspend INTEGER,sp_dospend INTEGER)')
